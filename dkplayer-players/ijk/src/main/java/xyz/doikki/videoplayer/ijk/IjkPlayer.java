@@ -46,6 +46,9 @@ public class IjkPlayer extends AbstractPlayer implements IMediaPlayer.OnErrorLis
         mMediaPlayer.setOnNativeInvokeListener(this);
     }
 
+    public IjkMediaPlayer getMediaPlayer() {
+        return mMediaPlayer;
+    }
 
     @Override
     public void setOptions() {
