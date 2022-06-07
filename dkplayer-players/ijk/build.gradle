@@ -20,4 +20,3 @@ ext {
     PUBLISH_ARTIFACT_ID = 'player-ijk'
 }
 
-apply from: '../../publish.gradle'
